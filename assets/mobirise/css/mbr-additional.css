@@ -1373,71 +1373,137 @@ body {
   display: none;
 }
 .cid-qK6yu0VTps {
-  background-image: url("../../../assets/images/jumbotron.jpg");
+  background-image: url("../../../assets/images/anime-girl-glasses-by-akashiya31-d6otck9-1131x707.jpg");
 }
-.cid-qK6zeHH0vP {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
+.cid-qK6yu0VTps H1 {
+  color: #ff3366;
 }
-.cid-qK6zeHH0vP .mbr-section-subtitle {
+.cid-qK6yu0VTps .mbr-text,
+.cid-qK6yu0VTps .mbr-section-btn {
+  color: #073b4c;
+}
+.cid-qK6JXVnNfo {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #efefef;
+}
+.cid-qK6JXVnNfo .mbr-section-subtitle {
   color: #767676;
+  font-weight: 300;
 }
-.cid-qK6zeHH0vP .btn {
-  margin: 0 0 .5rem 0;
-}
-.cid-qK6z4yk0IP {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background: linear-gradient(45deg, #177396, #ca2955);
-}
-.cid-qK6z4yk0IP .list-group-item {
-  padding: .75rem 3.25rem;
-}
-.cid-qK6z4yk0IP .plan {
-  word-break: break-word;
+.cid-qK6JXVnNfo .number-wrap {
+  color: #565656;
+  border-color: rgba(255, 255, 255, 0.15);
   position: relative;
-  max-width: 300px;
-  padding-right: 0;
-  padding-left: 0;
-  color: #767676;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 10px 13px 10px;
+  margin: 0;
+  min-width: 118px;
+  border-radius: 2px;
+  max-width: 100%;
 }
-.cid-qK6z4yk0IP .plan .list-group-item {
-  position: relative;
-  -webkit-justify-content: center;
-  justify-content: center;
-  border: 0;
+.cid-qK6JXVnNfo .number {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  text-transform: none;
+  letter-spacing: -2px;
+  word-spacing: 0;
+  line-height: 1.3;
+  color: #28262b;
 }
-.cid-qK6z4yk0IP .plan .list-group-item::after {
+.cid-qK6JXVnNfo .period {
+  display: block;
+  padding-top: 2px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cid-qK6JXVnNfo .dot {
   position: absolute;
-  bottom: 0;
-  left: 20%;
-  width: 60%;
-  height: 2px;
-  content: "";
-  background-color: #eaeaea;
-}
-.cid-qK6z4yk0IP .plan .list-group-item:last-child::after {
-  display: none;
-}
-.cid-qK6z4yk0IP .plan-header {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.cid-qK6z4yk0IP .plan-header,
-.cid-qK6z4yk0IP .plan-body {
-  background-color: #fff;
-}
-.cid-qK6z4yk0IP .price-figure {
+  top: -10px;
+  right: -1em;
+  width: 1em;
+  display: block;
+  height: 83%;
+  overflow: hidden;
+  font-style: normal;
   font-weight: 700;
-  color: #232323;
+  font-size: 55px;
+  line-height: 89.65px;
+  text-transform: none;
+  letter-spacing: 0;
+  word-spacing: 0;
+  color: #28262b;
 }
-.cid-qK6z4yk0IP .price-value {
-  font-weight: 700;
-  vertical-align: top;
+.cid-qK6JXVnNfo .countdown-cont {
+  max-width: 700px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-qK6JXVnNfo .dot {
+    display: none;
+  }
+}
+@media (max-width: 543px) {
+  .cid-qK6JXVnNfo .number-wrap {
+    margin-bottom: 15px;
+  }
 }
 @media (max-width: 550px) {
-  .cid-qK6z4yk0IP .price-figure {
-    font-size: 4.25rem;
+  .cid-qK6JXVnNfo .col-xs-3 {
+    padding-left: 0;
+    padding-right: 0;
   }
+  .cid-qK6JXVnNfo .number-wrap {
+    min-width: auto;
+  }
+}
+@media (max-width: 440px) {
+  .cid-qK6JXVnNfo .number,
+  .cid-qK6JXVnNfo .dot {
+    font-size: 40px;
+  }
+}
+@media (max-width: 380px) {
+  .cid-qK6JXVnNfo .period {
+    font-size: 0.8rem;
+  }
+}
+.cid-qK6K6lgtgi .google-map {
+  height: 25rem;
+  position: relative;
+}
+.cid-qK6K6lgtgi .google-map iframe {
+  height: 100%;
+  width: 100%;
+}
+.cid-qK6K6lgtgi .google-map [data-state-details] {
+  color: #6b6763;
+  font-family: Montserrat;
+  height: 1.5em;
+  margin-top: -0.75em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.cid-qK6K6lgtgi .google-map[data-state] {
+  background: #e9e5dc;
+}
+.cid-qK6K6lgtgi .google-map[data-state="loading"] [data-state-details] {
+  display: none;
+}
+.cid-qK6K89ljl1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(0deg, #7fdbfd, #6670a9);
+}
+.cid-qK6K89ljl1 .mbr-iconfont-social {
+  font-size: 32px;
+  color: #ff3366;
+}
+.cid-qK6K89ljl1 .social-list a:focus {
+  text-decoration: none;
 }
